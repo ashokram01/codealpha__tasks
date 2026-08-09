@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "is anyone there?"],
+      "responses": ["Hello! Welcome to CloudSec Solutions. How can I help you today?", "Hi there! How can I assist you with your cloud security needs?"]
+    },
+    {
+      "tag": "services",
+      "patterns": ["what do you do", "services", "products", "what can you help me with", "offer"],
+      "responses": ["We offer Cloud Infrastructure setup, AWS Security Audits, and VAPT (Vulnerability Assessment). Which one are you interested in?"]
+    },
+    {
+      "tag": "pricing",
+      "patterns": ["price", "cost", "how much", "charges", "fees"],
+      "responses": ["Our pricing depends on the scope of the project. A basic cloud security audit starts at $500. Would you like a detailed quote?"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "support", "talk to human", "phone number", "email"],
+      "responses": ["You can reach our technical support team at support@cloudsec.com or call us at +91-9876543210."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "see you later", "goodbye", "exit"],
+      "responses": ["Goodbye! Stay secure.", "Have a great day! Reach out if you need more help."]
+    }
+  ]
+}
